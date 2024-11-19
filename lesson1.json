@@ -1,0 +1,67 @@
+{
+  "unit_number": 1,
+  "unit_title": "Pythonの基本",
+  "lesson_number": 1,
+  "lesson_title": "Pythonの世界へようこそ",
+  "sections": [
+    {
+      "type": "introduction",
+      "header": "Pythonとは？",
+      "content": "Pythonは、初心者にとても優しいプログラミング言語です。このレッスンでは、Pythonを使って最初のプログラムを書いてみましょう。"
+    },
+    {
+      "type": "concept",
+      "header": "Pythonで最初のプログラムを作る",
+      "content": "Pythonでは簡単に文字を表示することができます。以下のように`print`関数を使って、好きなメッセージを画面に表示してみましょう。"
+    },
+    {
+      "type": "code-example",
+      "code": "print('こんにちは、Python!')"
+    },
+    {
+      "type": "tasks",
+      "header": "練習してみよう",
+      "tasks": [
+        {
+          "title": "課題 1: 自分の名前を表示しよう",
+          "description": "自分の名前を表示するプログラムを書いてみましょう。",
+          "code": "print('あなたの名前')",
+          "expected_output": "あなたの名前"
+        },
+        {
+          "title": "課題 2: 好きな言葉を表示しよう",
+          "description": "好きな言葉を画面に表示してみましょう。",
+          "code": "print('好きな言葉')",
+          "expected_output": "好きな言葉"
+        },
+        {
+          "title": "課題 3: 複数の文字列をつなげて表示しよう",
+          "description": "複数の文字列を`+`演算子でつなげて、文章を作りましょう。",
+          "code": "print('こんにちは' + '、世界!')",
+          "expected_output": "こんにちは、世界!"
+        }
+      ]
+    },
+    {
+      "type": "experiments",
+      "header": "実験してみよう",
+      "experiments": [
+        {
+          "description": "print関数に数字を入れるとどうなるか試してみましょう。",
+          "code": "print(12345)",
+          "expected_output": "12345"
+        },
+        {
+          "description": "複数のメッセージを同時に表示してみましょう。",
+          "code": "print('こんにちは', 'Python')",
+          "expected_output": "こんにちは Python"
+        },
+        {
+          "description": "文字列の代わりに数値を足し算してみましょう。",
+          "code": "print(10 + 20)",
+          "expected_output": "30"
+        }
+      ]
+    }
+  ]
+}

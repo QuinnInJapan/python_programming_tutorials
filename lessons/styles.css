@@ -1,0 +1,154 @@
+/* General Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #D9F2FC; /* Light Blue */
+    color: #1E3A5F; /* Dark Navy Text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    background-color: #FFFFFF; /* White background for content */
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for distinction */
+}
+
+/* Unit and Lesson Info Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.unit-info,
+.lesson-info {
+    font-size: 0.9em;
+    color: #6C757D; /* Light Gray */
+    font-weight: lighter;
+}
+
+/* Title Styling */
+h1 {
+    text-align: center;
+    color: #005F70;
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #028090;
+    padding-bottom: 10px;
+}
+
+/* Section Headers */
+h2 {
+    color: #005F70;
+    font-size: 1.6em;
+    margin: 15px 0 10px;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #F8FBFD;
+    border-radius: 8px;
+}
+
+/* Task and Problem Items */
+.task-item,
+.problem-item {
+    margin-bottom: 20px; /* Space between tasks/problems */
+    padding-bottom: 10px; /* Padding for separation */
+    border-bottom: 1px solid #CCCCCC; /* Light gray horizontal line */
+}
+
+/* Remove bottom border for the last item */
+.task-item:last-child,
+.problem-item:last-child {
+    border-bottom: none;
+}
+
+/* Task and Problem Titles */
+.task-title,
+.problem-title {
+    font-size: 1.2em;
+    color: #005F70; /* Unified teal color */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Code Blocks */
+.code {
+    background-color: #F8F8F8; /* Light gray background */
+    border: 1px solid #CCCCCC; /* Subtle gray border */
+    border-radius: 5px;
+    padding: 15px;
+    font-family: Consolas, monospace;
+    font-size: 1em;
+    margin: 15px 0;
+    white-space: pre-wrap;
+}
+
+/* Hint Boxes */
+.hint {
+    background-color: #FFEBB8; /* Pale Yellow */
+    padding: 15px;
+    border-left: 3px solid #FFA500; /* Orange left border */
+    margin: 20px 0;
+}
+
+/* Section Descriptions */
+.section-description {
+    font-style: italic;
+    color: #666666; /* Lighter gray text */
+    margin-bottom: 20px; /* Add spacing for separation */
+}
+
+/* Experiment Section */
+.section.experiment {
+    background-color: #F0F8F5; /* Light Green */
+    border: 1px solid #A3D4B0; /* Subtle green border */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.experiment-desc {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #1E3A5F; /* Dark navy */
+}
+
+/* Print Styles */
+@media print {
+    body {
+        font-size: 10pt;
+        background-color: #FFFFFF;
+    }
+    .container {
+        border-radius: 0;
+        border: 1px solid #000000;
+    }
+    h1, h2 {
+        color: #000000;
+    }
+    .section {
+        background-color: #FFFFFF;
+        border: 1px solid #CCCCCC;
+    }
+    .code {
+        font-size: 9pt;
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "unit_number": 1,
+    "unit_title": "Pythonの基本",
+    "lesson_number": 2,
+    "lesson_title": "変数とデータ型",
+    "sections": [
+      {
+        "type": "introduction",
+        "header": "変数とデータ型",
+        "content": "このレッスンでは、Pythonで変数とデータ型を使う方法を学びます。まずは、変数に値を代入し、その値を出力してみましょう。"
+      },
+      {
+        "type": "concept",
+        "header": "変数とは？",
+        "content": "変数は、プログラム内でデータを保存するためのラベルのようなものです。たとえば、自分の年齢を「age」という名前の変数に保存することができます。\n\n変数は次のように考えることができます：\n- 「age」というラベルがついた箱があります。\n- その箱の中に「25」という数字を入れます。\n\nPythonでの例："
+      },
+      {
+        "type": "code-example",
+        "code": "age = 25\nprint(age)  # これで25と表示されます"
+      },
+      {
+        "type": "concept",
+        "header": "データ型とは？",
+        "content": "データ型は、変数に保存されるデータの種類を示します。たとえば、テキスト（文字列）や数字（整数）が含まれます。\n\nPythonには主に次のデータ型があります：\n- 文字列（String）：テキストを表します。例：'こんにちは'\n- 整数（Integer）：整数値を表します。例：25\n- 小数点（Float）：小数点を含む数字を表します。例：3.14"
+      },
+      {
+        "type": "tasks",
+        "header": "練習してみよう",
+        "tasks": [
+          {
+            "title": "課題 1: 年齢を変数に代入し表示しよう",
+            "description": "自分の年齢を変数に代入して、その値を表示するプログラムを書いてみましょう。",
+            "code": "age = 25\nprint(age)",
+            "expected_output": "25"
+          },
+          {
+            "title": "課題 2: 好きな色と数字を表示しよう",
+            "description": "好きな色と数字を変数に代入し、それらを表示するプログラムを書いてみましょう。",
+            "code": "color = '青'\nnumber = 7\nprint(color, number)",
+            "expected_output": "青 7"
+          },
+          {
+            "title": "課題 3: 文字列と整数を組み合わせてみよう",
+            "description": "文字列と整数を組み合わせて、自己紹介の文を表示するプログラムを書いてみましょう。",
+            "code": "name = '太郎'\nage = 25\nprint(name + 'さん、' + str(age) + '歳です')",
+            "expected_output": "太郎さん、25歳です"
+          }
+        ]
+      },
+      {
+        "type": "fix",
+        "header": "修正してみよう",
+        "description": "以下のコードにはエラーまたは誤った出力があります。これを修正して正しい結果が得られるようにしてください。",
+        "examples": [
+          {
+            "broken_code": "age = \"25\"\nprint(age + 5)",
+            "desired_output": "30"
+          },
+          {
+            "broken_code": "favorite_color = \"blue\"\nage = 25\nprint(\"My favorite color is \" + favorite_color + \" and I am \" + age + \" years old.\")",
+            "desired_output": "My favorite color is blue and I am 25 years old."
+          }
+        ]
+      },
+      {
+        "type": "experiments",
+        "header": "実験してみよう",
+        "experiments": [
+          {
+            "description": "文字列と数値の演算を試してみましょう。",
+            "code": "print(\"20\" + \"5\")",
+            "expected_output": "205"
+          },
+          {
+            "description": "変数を変更した後に再度出力してみましょう。",
+            "code": "age = 25\nprint(age)\nage = 30\nprint(age)",
+            "expected_output": "25\n30"
+          }
+        ]
+      }
+    ]
+  }
+  

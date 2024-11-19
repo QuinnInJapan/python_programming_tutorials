@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pythonの基本 - 変数とデータ型</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="unit-info">1課題 Pythonの基本</span>
+            <span class="lesson-info">2レッスン 変数とデータ型</span>
+        </div>
+        <h1>変数とデータ型</h1>
+    <h2>変数とデータ型</h2><div class='section'><p>このレッスンでは、Pythonで変数とデータ型を使う方法を学びます。まずは、変数に値を代入し、その値を出力してみましょう。</p></div><h2>変数とは？</h2><div class='section concept'><p>変数は、プログラム内でデータを保存するためのラベルのようなものです。たとえば、自分の年齢を「age」という名前の変数に保存することができます。
+
+変数は次のように考えることができます：
+- 「age」というラベルがついた箱があります。
+- その箱の中に「25」という数字を入れます。
+
+Pythonでの例：</p></div><div class='code'>age = 25
+print(age)  # これで25と表示されます</div><h2>データ型とは？</h2><div class='section concept'><p>データ型は、変数に保存されるデータの種類を示します。たとえば、テキスト（文字列）や数字（整数）が含まれます。
+
+Pythonには主に次のデータ型があります：
+- 文字列（String）：テキストを表します。例：'こんにちは'
+- 整数（Integer）：整数値を表します。例：25
+- 小数点（Float）：小数点を含む数字を表します。例：3.14</p></div><h2>練習してみよう</h2><div class='section task'>
+                <div class="task-item">
+                    <h3>課題 1: 年齢を変数に代入し表示しよう</h3>
+                    <p>自分の年齢を変数に代入して、その値を表示するプログラムを書いてみましょう。</p>
+                    <div class='code'>age = 25
+print(age)</div>
+                    <p><strong>出力例</strong></p>
+                    <div class='code'>25</div>
+                </div>
+                
+                <div class="task-item">
+                    <h3>課題 2: 好きな色と数字を表示しよう</h3>
+                    <p>好きな色と数字を変数に代入し、それらを表示するプログラムを書いてみましょう。</p>
+                    <div class='code'>color = '青'
+number = 7
+print(color, number)</div>
+                    <p><strong>出力例</strong></p>
+                    <div class='code'>青 7</div>
+                </div>
+                
+                <div class="task-item">
+                    <h3>課題 3: 文字列と整数を組み合わせてみよう</h3>
+                    <p>文字列と整数を組み合わせて、自己紹介の文を表示するプログラムを書いてみましょう。</p>
+                    <div class='code'>name = '太郎'
+age = 25
+print(name + 'さん、' + str(age) + '歳です')</div>
+                    <p><strong>出力例</strong></p>
+                    <div class='code'>太郎さん、25歳です</div>
+                </div>
+                </div><h2>修正してみよう</h2><div class='section fix'><p>以下のコードにはエラーまたは誤った出力があります。これを修正して正しい結果が得られるようにしてください。</p><ul>
+                <li>
+                    <h4>問題 1</h4>
+                    <div class='code'>age = "25"
+print(age + 5)</div>
+                    <p><strong>期待される出力</strong></p>
+                    <div class='code'>30</div>
+                </li>
+                
+                <li>
+                    <h4>問題 2</h4>
+                    <div class='code'>favorite_color = "blue"
+age = 25
+print("My favorite color is " + favorite_color + " and I am " + age + " years old.")</div>
+                    <p><strong>期待される出力</strong></p>
+                    <div class='code'>My favorite color is blue and I am 25 years old.</div>
+                </li>
+                </ul></div><h2>実験してみよう</h2><div class='section experiment'>
+                <div class="experiment">
+                    <p>文字列と数値の演算を試してみましょう。</p>
+                    <div class='code'>print("20" + "5")</div>
+                    <p><strong>出力例</strong></p>
+                    <div class='code'>205</div>
+                </div>
+                
+                <div class="experiment">
+                    <p>変数を変更した後に再度出力してみましょう。</p>
+                    <div class='code'>age = 25
+print(age)
+age = 30
+print(age)</div>
+                    <p><strong>出力例</strong></p>
+                    <div class='code'>25
+30</div>
+                </div>
+                </div></div></body></html>
